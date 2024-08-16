@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>recaptular</title>
+</head>
+<body>
+    <h1>recaptulando aula de imagem dinamica e audio</h1>
+    <p>vamos recaptular as aulas de ontem</p>
+    <h2>Imagens dinamicas</h2>
+    <p>para um melhor aprendizado, aumente e diminua a tela do navegador para entender como funciona</p> 
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="foto grande">
+    </picture>
+    <h2>Agora vamos falar de audios</h2>
+    <p>abaixo deixarei um player com uma música, dê play se quiser ouvir algo enquanto navega</p>
+    <audio preload="metadata" controls src="midia/swete-hearts.mp3"></audio>
+    <p>Se você não conseguir escutar o áudio, pode ser que o seu navegador não seja compatível, nesse caso, você pode <a href="midia/swete-hearts.mp3">clicar aqui</a> para efetuar o download da música e escutar no seu aplicativo padrão</p>
+</body>
+</html>
