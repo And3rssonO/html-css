@@ -4,6 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulários</title>
+    <style>
+        fieldset{
+            border: 3px solid black;
+            border-radius: 20px;
+            box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.685);
+        }
+
+        fieldset > legend{
+            text-align: center;
+            font-weight: bolder;
+            font-size: 1.5em;
+            font-family: Arial, Helvetica, sans-serif;
+            font-variant: small-caps;
+        }
+    </style>
 </head>
 <body>
     <h1>Exemplos de formulários</h1>
@@ -16,7 +31,7 @@
             </p>
             <p>
                 <label for="iemail"><strong>Email:</strong></label>
-                <input type="email" name="email" id="iemail" required autocomplete="email">
+                <input type="email" name="email" id="iemail" required autocomplete="email" placeholder="example@example.com">
             </p>
             <p>
                 <label for="itel"><strong>Telefone:</strong></label>
