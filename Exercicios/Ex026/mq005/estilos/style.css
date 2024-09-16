@@ -21,7 +21,20 @@ header > h1{
 }
 
 menu{
+    display: none;
+}
+
+span#burguer{
     display: block;
+    background-color: rgb(51, 49, 49);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+span#burguer:hover{
+    background-color: white;
+    color: black;
 }
 
 menu > ul > li{
@@ -50,6 +63,7 @@ main {
 
 article > h2{
     padding-bottom: 10px;
+    text-align: center;
 }
 
 article > p{
