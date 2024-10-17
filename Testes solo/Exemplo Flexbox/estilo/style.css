@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 96.5vw;
+    height: 100vh;
+    background-color: rgba(127, 255, 212, 0.295);
+}
+
+header{
+    background-color: grey;
+    color: white;
+    min-height: 150px;
+    margin-bottom: 10px;
+    width: 96.5vw;
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+header > h1{
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.514);
+    flex-basis: 100px;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+nav > a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+nav > a:hover{
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    transition: background-color .8s;
+}
+
+main{
+    background-color: rgba(255, 255, 255, 0.521);
+    margin: 5px;
+    padding: 10px;
+}
+
+section#cont1{
+    background-color: rgba(165, 42, 42, 0.418);
+    padding: 10px;
+    margin-bottom: 15px;
+    
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+section#cont2{
+    background-color: rgba(165, 42, 42, 0.418);
+    padding: 10px;
+    
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+div.c1{
+    flex-basis: 200px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    text-indent: 10px;
+    text-align: justify;
+}
+
+div.c2{
+    flex-basis: 200px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    text-indent: 10px;
+    text-align: justify;
+}
+
+div.c3{
+    flex-basis: 200px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    text-indent: 10px;
+    text-align: justify;
+}
+
+div.c4{
+    flex-basis: 200px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    text-indent: 10px;
+    text-align: justify;
+}
+
+div.img1{
+    background-image: url(../imagens/notbook.jpg);
+    flex-basis: 300px;
+    background-size: cover;
+}
+
+div.img2{
+    background-image: url(../imagens/homem.jpg);
+    background-size: cover;
+    background-position: left top;
+    flex-basis: 400px;
+}
